@@ -1,4 +1,3 @@
-<br/>
 ##Joystick
 The joystick shield has three main components:
 
