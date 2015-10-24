@@ -1,0 +1,370 @@
+<br/>
+##Joystick
+The joystick shield has three main components:
+
+1. Actual Joystick Assembly
+1. Board
+2. Rubber Thumb Thingy
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_00.jpg"/>
+
+Start by putting the assembly into the board.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_01.jpg"/>
+
+Flip it over. I usually solder the diagonals to make sure it is seated properly.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_02.jpg"/>
+
+Solder the rest of the pins.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_03.jpg"/>
+
+I completely forgot to take a picture of the wires...and it is now glued into the handle... Grab 5 female to female jumpers. Cut one end off and solder them to the pads. I used the following color code:
+Red - 5V
+Yellow - XOut
+Yellow - YOut
+Green - Select
+Black - Ground
+
+Make sure these are around 6-8 inches long. Really short wires makes end assembly fairly hard (you'll find out why later in the instructions.
+
+Hot glue the leads down to the board for strain relief (if I don't do this...the wires ALWAYS come undone...).
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_04.jpg"/>
+
+Tape the two yellow and the 1 green jumpers together.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_05.jpg"/>
+
+<br/>
+##Speaker and Sound Board
+The speaker wires are fairly dinky...I replaced mine with some 18 gauge wire I had laying around.
+
+Note: The sound board in the image below is not the one used in this project!
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/speaker_00.jpg"/>
+
+I forgot to take pictures of the wire connectors on the sound board...but the connectors connect-together. Then put them in the holes on the sound FX board (they only fit in the one place).
+
+Adafruit has a great tutorial on using this board: https://learn.adafruit.com/adafruit-audio-fx-sound-board
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/speaker_01.jpg"/>
+
+Use the screw down terminals to connect the speaker.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/speaker_02.jpg"/>
+
+<br/>
+##Power Switch
+For the power switch, start by grabbing two pieces of wire (2-3 inches long). Strip and tin the exposed parts.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/switch_00.jpg"/>
+
+Cut one leg off the switch (not necessary...but the less metal things that can accidentally touch two traces or components and short them...the better...).
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/switch_01.jpg"/>
+
+Solder the two wires to the switch. Feel free to used heat shrink as well.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/switch_02.jpg"/>
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/switch_03.jpg"/>
+
+<br/>
+##Display
+There are two components to the display:
+
+1. 4 Digit 7 Segment Display
+2. I2C Backpack
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/display_00.jpg"/>
+
+Make sure you get the display in correctly (the orientation is on the silk screen).
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/display_01.jpg"/>
+
+Again, start with the diagonals to make sure it is seated correctly.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/display_02.jpg"/>
+
+Once seated correctly, solder the rest of the pins. It's not in the image below, but clip off the excess leads.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/display_03.jpg"/>
+
+Grab 4 jumpers, clip off one side. I used the following color code:
+Red - 5V
+Black - Ground
+Blue - SDA
+Blue - SCL
+
+Solder the jumpers to the board. Hot glue the leads down to the board for strain relief (again, if I don't do this...the wires ALWAYS come undone...).
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/display_04.jpg"/>
+
+Tape the blue pins together.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/display_05.jpg"/>
+
+<br/>
+##Handle
+Grab a vice or clamp, super glue, the handle halves, and the box piece. After removing the support material, glue the halves together and put them in the vice/clamp. I also put the handle in the box piece to let it dry (this way everything lines up).
+
+Note: I did not use supports on the handle halves...you should...
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/handle_00.jpg"/>
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/handle_01.jpg"/>
+
+You may want to skip this step just to make sure your wiring is 100% correct before you hot glue something in.
+
+Take the joystick assembly and put it in the slot. I put it in sideways because the actual mechanical assembly isn't as wide vertically when it is in this orientation. Getting it lined up can be tricky, so use a little bit of hot glue, assemble everything, and see if it is lined up. If it is, add enough hot glue to make it stay in.
+
+Note: The gaps are actually ok (that's the fill, sand, prime, fill, sand, prime, fill, sand, prime, fill, sand, prime, fill, sand, prime, ... step).
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/handle_02.jpg"/>
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/handle_03.jpg"/>
+
+<br/>
+##Electronics
+
+I could have done a much better job of documenting this project. I did some experimenting during this process, and didn't really know what I was going to do until the end. All of the boards in this project come with male headers. I used these headers to connect everything together. Pinout is in the next section below.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/whole_00.jpg"/>
+
+Once everything is together like above, grab a piece of cardboard (really anything flat that isn't conductive) and seat all of your electronics to it. I uploaded the sound file (in the files section, T08.ogg) before gluing everything down.
+
+Note: Stripboard would have been better to use instead of the soldered breadboard...
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/whole_03.jpg"/>
+
+It's amazing how much use the sticky note below gets in the office...
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/whole_02.jpg"/>
+
+<br/>
+##Code Test
+
+To test your code, download the Arduino IDE (1.6.5 added a library manager...I love it so much...words cannot express how happy I am about this...).
+
+Add the following libraries from Sketch>Include Library>Manage Libraries:
+Adafruit NeoPixel Library
+Adafruit LED Backpack Library
+Adafruit GFX Library
+
+Open and upload the tester program (files section, tester.zip). This program spits out the sum of the analog joysticks to the display, lights up the LEDs and plays the sound when the joystick button is clicked down.
+
+<br/>
+##Old Display
+I had a question asking if the Mk1 print could be used with the newer hardware. With the display below, it sure can!
+
+Old display with backpack:
+https://www.sparkfun.com/products/11441
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/old_display_00.jpg"/>
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/old_display_01.jpg"/>
+
+Same process with an extra step. First, grab some jumpers
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/old_display_02.jpg"/>
+
+Tin the wires and solder them to the correct pads.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/old_display_03.jpg"/>
+
+Hot glue for securing.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/old_display_04.jpg"/>
+
+Plug it in, here there is an extra step.
+
+In the test firmware (and soon to be actual firmware), there are two defines at the top of tester.ino. Change the two lines from:
+<pre><code>#define ADAFRUIT_7SEGMENT
+//#define SPARKFUN_7SEGMENT</code></pre>
+
+to:
+<pre><code>//#define ADAFRUIT_7SEGMENT
+#define SPARKFUN_7SEGMENT</code></pre>
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/old_display_05.jpg"/>
+
+<br/>
+##Dome Cutting
+This is by far the most dangerous part of this project. I wore full face protection, gloves, and a thick jacket. I've never had the light bulb I use explode...but I prefer to be paranoid over having shards of glass in my eyes.
+
+I use T10 lightbulbs for these. You can find them at pretty much any grocery store.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_00.jpg"/>
+
+Mark a spot approximately 1.5 inches from the bottom of the screw in part.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_01.jpg"/>
+
+With a dremel, carefully score the line over and over again. Sooner or later, the bulb will just come apart.
+
+The bulb halves have sharp edges! Be careful!
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_02.jpg"/>
+
+After cutting, there is an obvious jagged glass problem. Not to mention you might get a split starting. I superglue the split (so it doesn't split more) and put electrical tape around the jagged edges.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_03.jpg"/>
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_04.jpg"/>
+
+Do a test fit (note, I noticed the ring model was missing...not sure how I forgot this...).
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_05.jpg"/>
+
+<br/>
+##Dome LED
+
+Onto the dome LED. Neopixels are great for projects because they use 1 wire for more or less as many as you want (excluding 5V and ground) in a daisy chaining fashion.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_00.jpg"/>
+
+Snap off one of the neopixels.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_01.jpg"/>
+
+For the dome, you really want some sort of white colored wire. I recently noticed the portal gun actually has a swirlly-thingy instead of a crystal-thingy...so I'm going to shoot for the swirlly-thingy this time around.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_02.jpg"/>
+
+Tin the wires and tin the pads for the wires. Make sure you tin the side that has DIN. This LED will be the last LED in the daisy chain, so it HAS to be DIN.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_03.jpg"/>
+
+Solder on the wires. I want the LED to be the center of the swirlly-thingy, so I put the wires near the center of it.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_04.jpg"/>
+
+Before we get to the messy part, mark the other end of the wires so you know which s 5V, ground, and DIN. I used solid-back for ground, dashed black for 5V, and no marking for DIN.
+
+At this point, you may want to test this LED before moving on to the next part. To do this, load up the test program and hookup 5V to 5V, ground to ground, and DIN to pin 10 on the Arduino. Hold down the joystick button to see the LED light up.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_05.jpg"/>
+
+Now onto the messy part. Grab a hot glue gun and put on a thing layer all around the LED.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_06.jpg"/>
+
+Grab another piece of white wire (or use fishing line maybe?). Add it to the top of the LED. Add another layer of hot glue.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_07.jpg"/>
+
+Now add a bit of hot glue to the tip of the monstrosity and touch it to the top of the dome.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_08.jpg"/>
+
+Once it dries, bend the wires over and hot glue those to the base of the dome.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_09.jpg"/>
+
+Swirlly-thingy achieved.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_10.jpg"/>
+
+<br/>
+##Dome Resin Filling
+I filled my dome up with a clear acrylic resin (links below). I like this stuff because it doesn't smell very bad initially...but as it cures...it does. This way, you can mix it and such in your shop/home, and then stick it outside to cure overnight.
+
+I used a drill press vice to hold the bulb in place while filling it.
+
+http://www.michaels.com/castin-craft-clear-polyester-casting-resin-32-oz/10558122.html
+http://www.michaels.com/castincraft-catalyst/10558155.html
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_resin_00.jpg"/>
+
+Before placing the bulb half in the vice, wrap it in a double up folded paper towel.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_resin_01.jpg"/>
+
+Try not to over tighten the bulb in the vice.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_resin_02.jpg"/>
+
+This resin looks like a strange color when you pour it in, but it comes out pretty clear.
+
+I wanted bubbles in this mixture. To do this, do everything your not supposed to do:
+-Add half a teaspoon of water to the mix.
+-Poor it in as much as you can as fast as you can.
+-Do not shake the piece to drive the air bubbles out.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_resin_03.jpg"/>
+
+Below is the finished product.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_resin_04.jpg"/>
+
+I realized my initial design wasn't going to work. So we need to add some female jumper ends to the wires we have on the dome. When splicing wires, having some shrink tubing really makes a big difference, but tape will work as well.
+
+MAKE SURE TO LOOK AT THE NEW PINOUT ABOVE!
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_11.jpg"/>
+
+Start by making the wires on the dome a little shorter. I'm always cautious to cut things too short...so leave a good 2 inches.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_12.jpg"/>
+
+Tin both sides of the wires and solder them together. If you are using shrink tubing, make sure you have it on before you start soldering.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_13.jpg"/>
+
+Once you have them soldered on, apply some heat to the heat shrink and we're all done with this piece.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/dome_led_14.jpg"/>
+
+<br/>
+##Front Panel
+
+Finally got around to designing the front panel. Grab 3 more of the Neopixels and a hot glue gun as well.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_00.jpg"/>
+
+The Neopixels should almost snap into place in the square holes on the back of the plate. Make sure they are all facing the same direction!
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_01.jpg"/>
+
+Hot glue around the Neopixels to keep them in place.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_02.jpg"/>
+
+Tin all of the contacts.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_03.jpg"/>
+
+Find some extra wire (or cannibalize some jumpers). Solder the wires onto the Neopixels
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_04.jpg"/>
+
+We need some actual female jumpers to connect it to the main board.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_05.jpg"/>
+
+Solder those in on the DIN side.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_06.jpg"/>
+
+At this point, test this out by plugging the DIN pin to the Arduino 13, GND to the GND rail on the strip board, and 5V to the 5V rail on the strip board.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_07.jpg"/>
+
+Try a test fit! The switch will be hot glued on once it is painted and such. It may be wise to take the Neopixels out before sanding and painting (greatest things about hot glue...you can disassemble if you have to. I may not sand this side and just paint it. The switch should be a friction fit.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/front_08.jpg"/>
+
+<br/>
+##Test Fit
+
+Assembly actually has to happen in a fairly specific order, especially once the handle piece is glued in. That'll be next!
+
+Note: The final build will not have scotch tape holding it together. Also, this thing looks really great in the dark...blindingly great...
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/test_00.jpg"/>
+
+<br/>
+##Soon to Come
+Assembly instructions, painting prep, and painting.
