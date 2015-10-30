@@ -37,6 +37,38 @@ Tape the two yellow and the 1 green jumpers together.
 <img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/joystick_05.jpg"/>
 
 <br/>
+##Rotary Encoder (Optional)
+For use with the Mk1 stls, you can use the rotary encoder board.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_00.jpg"/>
+
+First we need to clip off the male headers. If we don't do this, the board doesn't fit into the slot.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_01.jpg"/>
+
+Grab some jumpers, clip them in half, strip the ends, and tin them.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_02.jpg"/>
+
+Now comes the wird part...note how the wires are soldered? The board isn't long enough on one side, so we need to run the wires from this side of the board.
+
+Black - Ground
+Red - 5V
+Blue - SW
+Yellow - DT
+Yellow - CLK
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_03.jpg"/>
+
+Hot glue the wires to make sure they stay.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_04.jpg"/>
+
+Test fit, seems to work.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_05.jpg"/>
+
+<br/>
 ##Speaker and Sound Board
 The speaker wires are fairly dinky...I replaced mine with some 18 gauge wire I had laying around.
 
