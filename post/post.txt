@@ -184,6 +184,9 @@ Adafruit NeoPixel Library
 Adafruit LED Backpack Library
 Adafruit GFX Library
 
+If you are using the rotary encoder:
+Adafruit GFX Library
+
 Open and upload the tester program (files section, tester.zip). This program spits out the sum of the analog joysticks to the display, lights up the LEDs and plays the sound when the joystick button is clicked down.
 
 <br/>
