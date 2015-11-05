@@ -68,6 +68,16 @@ Test fit, seems to work.
 
 <img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/encoder_05.jpg"/>
 
+Plug it in, here there is an extra step.
+
+There are two defines at the top of firmware.ino. Change the two lines from:
+<pre><code>#define JOYSTICK
+//#define ENCODER</code></pre>
+
+to:
+<pre><code>//#define JOYSTICK
+#define ENCODER</code></pre>
+
 <br/>
 ##Speaker and Sound Board
 The speaker wires are fairly dinky...I replaced mine with some 18 gauge wire I had laying around.
@@ -185,7 +195,7 @@ Adafruit LED Backpack Library
 Adafruit GFX Library
 
 If you are using the rotary encoder:
-Adafruit GFX Library
+Encoder
 
 Open and upload the tester program (files section, tester.zip). This program spits out the sum of the analog joysticks to the display, lights up the LEDs and plays the sound when the joystick button is clicked down.
 
@@ -214,7 +224,7 @@ Hot glue for securing.
 
 Plug it in, here there is an extra step.
 
-In the test firmware (and soon to be actual firmware), there are two defines at the top of tester.ino. Change the two lines from:
+There are two defines at the top of firmware.ino. Change the two lines from:
 <pre><code>#define ADAFRUIT_7SEGMENT
 //#define SPARKFUN_7SEGMENT</code></pre>
 
