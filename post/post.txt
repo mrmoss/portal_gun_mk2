@@ -410,5 +410,47 @@ Note: The final build will not have scotch tape holding it together. Also, this 
 <img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/test_00.jpg"/>
 
 <br/>
-##Soon to Come
-Assembly instructions, painting prep, and painting.
+##Sanding and Painting
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/sanding_00.jpg"/>
+
+Here grab some Elmer's wood filler, sand paper, and some small files.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/sanding_01.jpg"/>
+
+The filler goes on purple and turns white when it is dry. I tend to put on a ton of this stuff and sand it smooth.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/sanding_02.jpg"/>
+
+You can do this as many times as you want, sooner or later you've got to call it quits.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/sanding_03.jpg"/>
+
+Once you've had enough sanding, apply a coat of white spray primer and then 2 coats of silver spray paint.
+
+<br/>
+##Assembly
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/assembly_00.jpg"/>
+
+Apply some hot glue to the bottom of the electronics "board" and glue it in place inside of the gun.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/assembly_01.jpg"/>
+
+Hot glue the ring onto the "crystal" thing we made before.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/assembly_02.jpg"/>
+
+Plug the crystal thing in and put it into the frame. Mine stays in place without any glue, apply some if needed.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/assembly_03.jpg"/>
+
+Plug the front panel in and screw it into the frame. You can either use some tiny #2 self-tapping machine screws or drill and tap and use 4-40 or M3.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/assembly_04.jpg"/>
+
+Turn it on, enjoy.
+
+<img src="https://raw.githubusercontent.com/mrmoss/portal_gun_mk2/master/images/assembly_05.jpg"/>
+
+It looks pretty cool in the dark too.
