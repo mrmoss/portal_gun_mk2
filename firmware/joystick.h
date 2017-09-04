@@ -70,7 +70,7 @@ class joystick_t
     void (*ondown)();
     void (*onclick)();
 
-    joystick_t(const int xout_pin, const int yout_pin, const int sel_pin): x_axis_m(xout_pin), y_axis_m(yout_pin), button_m(sel_pin)
+    joystick_t(const int xout_pin, const int yout_pin, const int sel_pin, const bool keep_alive_setup = false): x_axis_m(xout_pin), y_axis_m(yout_pin), button_m(sel_pin, keep_alive_setup)
     {}
 
     void setup()

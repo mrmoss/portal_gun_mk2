@@ -11,7 +11,7 @@ class encoder_t
     void (*onright)();
     void (*onclick)();
 
-    encoder_t(const int clk_pin, const int dt_pin, const int sw_pin): encoder_m(clk_pin, dt_pin), position_m(0), button_m(sw_pin)
+    encoder_t(const int clk_pin, const int dt_pin, const int sw_pin, const bool keep_alive_setup = false): encoder_m(clk_pin, dt_pin), position_m(0), button_m(sw_pin, keep_alive_setup)
     {}
 
     void setup()
